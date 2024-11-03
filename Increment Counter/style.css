@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Space Grotesk', monospace;
+	margin: 0;
+	padding: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+	background-color: #343334;
+	color: #d1dec1;
+}
+
+.counter-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: 30px 50px;
+}
+
+.counter {
+	font-size: 60px;
+	margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+	body {
+		flex-direction: column;
+	}
+}
